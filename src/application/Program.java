@@ -4,6 +4,7 @@ import db.DB;
 import db.DbException;
 import db.DbIntegrityException;
 import model.dao.DaoFactory;
+import model.dao.DepatmentDao;
 import model.dao.SellerDao;
 import model.entities.Department;
 import model.entities.Seller;
@@ -42,11 +43,18 @@ public class Program {
         //sellerDao.insert(newSeller);
         //System.out.println("New ID = " + newSeller.getId());
 
-        seller = sellerDao.findById(4);
+        seller = sellerDao.findById(13);
         seller.setName("Menegueleléu");
         sellerDao.update(seller);
 
-        sellerDao.deleteById(4);
+        //sellerDao.deleteById(4);
+
+        DepatmentDao depDao = DaoFactory.createDepartmentDao();
+
+        Department dep = new Department(null,"Laptops");
+        //depDao.insert(dep);
+
+        
     }
 
     private static void listarDados () {
