@@ -37,6 +37,16 @@ public class Program {
                 list) {
             System.out.println(obj);
         }
+
+        //Seller newSeller = new Seller(null,"Gregory","greg@gmail.com", new java.util.Date(), 4000.0,department);
+        //sellerDao.insert(newSeller);
+        //System.out.println("New ID = " + newSeller.getId());
+
+        seller = sellerDao.findById(4);
+        seller.setName("Menegueleléu");
+        sellerDao.update(seller);
+
+        sellerDao.deleteById(4);
     }
 
     private static void listarDados () {
