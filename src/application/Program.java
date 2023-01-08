@@ -54,7 +54,14 @@ public class Program {
         Department dep = new Department(null,"Laptops");
         //depDao.insert(dep);
 
-        
+        Department depBusca = depDao.findById(6);
+        System.out.println(depBusca);
+
+        List<Department> departamentos = depDao.findAll();
+        for (Department departamento:
+             departamentos) {
+            System.out.println(departamento);
+        }
     }
 
     private static void listarDados () {
