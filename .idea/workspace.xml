@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="850735c6-3ab3-4056-b67c-6d1f72d78cf8" name="Changes" comment="up">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/dao/Impl/SellerDaoJdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/dao/Impl/SellerDaoJdbc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/dao/SellerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/dao/SellerDao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +115,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/model/dao/Impl/SellerDaoJdbc.java</url>
-          <line>38</line>
+          <line>41</line>
           <properties class="model.dao.Impl.SellerDaoJdbc" method="findById">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
